@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/btnRightClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="rightClickMethod"
+        android:padding="30sp"
+        android:text="Right Click"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnLeftClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:onClick="leftClickMethod"
+        android:padding="30sp"
+        android:text="Left Click"
+        android:textColor="#ffffff" />
+
+    <ImageButton
+        android:id="@+id/btn_backward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:onClick="backward"
+        android:src="@drawable/backward" />
+
+    <ImageButton
+        android:id="@+id/btn_forward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:onClick="forward"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/forward" />
+
+</RelativeLayout>
