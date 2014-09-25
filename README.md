@@ -1,6 +1,6 @@
 BluetoothWifiRemote
 ===================
-BluetoothWifiRemote app 
+BluetoothWifiRemote app (not completed)
 Desktop Server app - Android Client app
 
 - android touchpad for desktop : movemouse cursors and right, left click
